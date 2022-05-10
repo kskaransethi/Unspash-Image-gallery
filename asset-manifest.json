@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Unspash-Image-gallery/static/css/main.7b6a72ba.css",
+    "main.js": "/Unspash-Image-gallery/static/js/main.4a2ad68a.js",
+    "index.html": "/Unspash-Image-gallery/index.html",
+    "main.7b6a72ba.css.map": "/Unspash-Image-gallery/static/css/main.7b6a72ba.css.map",
+    "main.4a2ad68a.js.map": "/Unspash-Image-gallery/static/js/main.4a2ad68a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b6a72ba.css",
+    "static/js/main.4a2ad68a.js"
+  ]
+}
