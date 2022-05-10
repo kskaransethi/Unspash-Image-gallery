@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 
 import {UnsplashImage}  from './component/UnsplashImage';
+const Api_Key = process.env.REACT_APP_ACCESSKEY
 
 function App(props) {
   const [images, setPhotos] = useState([]);
 
   const fetchRequest = async () => {
     const data = await fetch(
-      `https://api.unsplash.com/photos/random?client_id=xFacdBRowTwJiZassqttcds9FzXWs1x8ahBmFKegZpE&count=30`
+      `https://api.unsplash.com/photos/random?client_id=${Api_Key}&count=30`
     );
     const dataJ = await data.json();
     console.log(dataJ);
