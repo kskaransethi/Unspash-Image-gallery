@@ -1,11 +1,11 @@
 import React from "react";
 
-export const UnsplashImage = ({ url, key, alt, info, media }) => {
+export const UnsplashImage = ({ url, id, alt, info, media }) => {
   return (
-    <div class="gallery-container">
+    <div className="gallery-container">
       <div className="gallery-items">
         <div className="image">
-          <img src={url} alt={alt} key={key} />
+          <img src={url} alt={alt} key={id} />
         </div>
         <div className="text">
           <p>{info}</p>

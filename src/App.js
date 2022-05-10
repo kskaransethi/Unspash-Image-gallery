@@ -26,6 +26,7 @@ function App(props) {
         <UnsplashImage url={val.urls.small}
         alt={"val.alt.description"} 
         key={index}
+        id={index}
         info={val.user.name}
         media={val.urls.regular}
         />
