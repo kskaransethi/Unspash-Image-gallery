@@ -14,8 +14,6 @@ export const UnsplashImage = ({ url, key, alt, info, media }) => {
           <a 
             href={media.url}
             download
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Download
           </a>

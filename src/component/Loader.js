@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 
 const Loading = styled.div`
-text-align:center;
+text-align:center !important
+;
 
 .lds-ellipsis {
   display: inline-block;

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import { Loader } from "./component/Loader";
 
 import {UnsplashImage}  from './component/UnsplashImage';
 const Api_Key = process.env.REACT_APP_ACCESSKEY
@@ -26,10 +27,10 @@ function App(props) {
         alt={"val.alt.description"} 
         key={index}
         info={val.user.name}
-        media={val.links.download}
+        media={val.urls.regular}
         />
      )) }
-     
+    <Loader />
     </div>
   );
 }
